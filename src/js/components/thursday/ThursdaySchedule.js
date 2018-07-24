@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ScheduleComponent from "../Common/ScheduleComponent";
+import ScheduleComponent from "../common/ScheduleComponent";
 
 class ThursdaySchedule extends Component {
     constructor(props) {

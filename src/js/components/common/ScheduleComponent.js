@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import '../../App.css';
+import '../../../css/App.css';
 
 class ScheduleComponent extends Component {
     constructor(props) {
@@ -15,6 +15,7 @@ class ScheduleComponent extends Component {
             let stage = e.target.dataset.stage;
             let timeslot = e.target.dataset.timeslot;
             this.props.selectStage(e, stage, timeslot);
+            console.log("clicked cell");
         }
     }
 
